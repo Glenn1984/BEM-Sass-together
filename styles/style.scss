@@ -1,0 +1,19 @@
+@import "./constants";
+@import "./2ndblock";
+
+.blok__element {
+
+    @include squareSize();
+
+    &:active {
+        background-color: $scndColor;
+    }
+    &-modifier {
+        
+        @include circleSize();
+
+        &:active {
+            background-color: $frstColor;
+        }
+    }
+}

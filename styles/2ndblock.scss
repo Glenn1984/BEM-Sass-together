@@ -1,0 +1,31 @@
+.blok__element1 {
+    background-color: $scndColor;
+    padding: 10em;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin-right: -25%;
+    transform: translate(25%, 25%);
+    transform: rotate3d(2, -1, -1, -0.2turn);
+    animation: colors 5s infinite;
+    @keyframes colors {
+        from {background-color: $scndColor}
+        to {background-color: $frstColor}
+    }
+
+    .blok__element1-modifier1 {
+        background-color: $frstColor;
+        border-radius: 50%;
+        padding: 5em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        animation: colorz 5s infinite;
+        @keyframes colorz {
+            from {background-color: $frstColor}
+            to {background-color: $scndColor}
+        }
+    }
+}

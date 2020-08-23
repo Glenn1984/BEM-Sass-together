@@ -1,0 +1,100 @@
+/* Variables */
+/* End Variables */
+/* Mixins */
+/* End Mixins */
+.blok__element1 {
+  background-color: #eeee0e;
+  padding: 10em;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  margin-right: -25%;
+  -webkit-transform: translate(25%, 25%);
+          transform: translate(25%, 25%);
+  -webkit-transform: rotate3d(2, -1, -1, -0.2turn);
+          transform: rotate3d(2, -1, -1, -0.2turn);
+  -webkit-animation: colors 5s infinite;
+          animation: colors 5s infinite;
+}
+
+@-webkit-keyframes colors {
+  from {
+    background-color: #eeee0e;
+  }
+  to {
+    background-color: #2755ec;
+  }
+}
+
+@keyframes colors {
+  from {
+    background-color: #eeee0e;
+  }
+  to {
+    background-color: #2755ec;
+  }
+}
+
+.blok__element1 .blok__element1-modifier1 {
+  background-color: #2755ec;
+  border-radius: 50%;
+  padding: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: colorz 5s infinite;
+          animation: colorz 5s infinite;
+}
+
+@-webkit-keyframes colorz {
+  from {
+    background-color: #2755ec;
+  }
+  to {
+    background-color: #eeee0e;
+  }
+}
+
+@keyframes colorz {
+  from {
+    background-color: #2755ec;
+  }
+  to {
+    background-color: #eeee0e;
+  }
+}
+
+.blok__element {
+  background-color: #2755ec;
+  padding: 10em;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  margin-right: -25%;
+  -webkit-transform: translate(-25%, -25%);
+          transform: translate(-25%, -25%);
+}
+
+.blok__element:active {
+  background-color: #eeee0e;
+}
+
+.blok__element-modifier {
+  background-color: #eeee0e;
+  border-radius: 50%;
+  padding: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.blok__element-modifier:active {
+  background-color: #2755ec;
+}
+/*# sourceMappingURL=style.css.map */

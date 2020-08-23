@@ -1,0 +1,32 @@
+/* Variables */
+$frstColor : rgb(39, 85, 236);
+$scndColor : rgb(238, 238, 14);
+
+/* End Variables */
+
+
+
+/* Mixins */
+
+@mixin squareSize() {
+    background-color: $frstColor;
+    padding: 10em;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-right: -25%;
+    transform: translate(-25%, -25%);
+}
+
+@mixin circleSize() {
+    background-color: $scndColor;
+    border-radius: 50%;
+    padding: 5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+/* End Mixins */
